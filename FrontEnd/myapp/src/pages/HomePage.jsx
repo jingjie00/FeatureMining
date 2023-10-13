@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 
 function HomePage() {
- return <Layout><Header></Header></Layout>
+ return <div>Hello</div>
 }
 
 export default HomePage;
