@@ -1,0 +1,105 @@
+  Police Report Storage Contract
+ - Address: 0x6FB195624Dd69E375798f4878525D0e3156F7735
+ - ABI: [
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "bool",
+                "name": "isPassed",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxClaimAmount",
+                "type": "uint256"
+              }
+            ],
+            "name": "addPoliceReport",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              }
+            ],
+            "name": "getPoliceReport",
+            "outputs": [
+              {
+                "components": [
+                  {
+                    "internalType": "bool",
+                    "name": "isPassed",
+                    "type": "bool"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "maxClaimAmount",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct reportResult",
+                "name": "",
+                "type": "tuple"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+              }
+            ],
+            "name": "policeReports",
+            "outputs": [
+              {
+                "internalType": "bool",
+                "name": "isPassed",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxClaimAmount",
+                "type": "uint256"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "bool",
+                "name": "isPassed",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxClaimAmount",
+                "type": "uint256"
+              }
+            ],
+            "name": "updatePoliceReport",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          }
+        ]
