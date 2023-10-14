@@ -20,33 +20,36 @@
 
 Our project name is called inShield.
 
-## 💡 Idea / Solution <a name = "idea"></a>
+## 💡 Tagline <a name = "tagline"></a>
 
-This section is used to describe potential solutions.
+Community-Driven Insurance : Where Community Shapes Insurance
 
-Once the ideal, reality, and consequences sections have been
-completed, and understood, it becomes easier to provide a solution for solving the problem.
+## ⛓️ The Problem it Solves <a name = "problem"></a>
 
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
+1. Fraud Detection and Prevention:
+Insurance fraud has always been a pervasive issue within the industry, costing insurers billions of dollars annually. The blockchain's immutability and transparency provide a robust defense against fraudulent claims. Through its decentralized ledger, the application securely records and time-stamps each claim's details, making it nearly impossible for policyholders to tamper with information or submit false claims.
 
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if
-  appropriate, describe how these limitations could point to the need for further research.
+2. Eliminating Manual Verification:
+One of the most significant problems this blockchain application addresses is the burden of manual claim verification. In the traditional insurance industry, each claim must be painstakingly reviewed by insurance agents, a process that often involves sifting through heaps of documents and verifying the authenticity of the provided information. This manual verification process is not only time-consuming but also prone to human errors, leading to delayed or incorrect claim processing
 
-## 🚀 Future Scope <a name = "future_scope"></a>
+3. Increased Trust and Transparency:
+By utilizing blockchain technology, this application fosters a level of trust and transparency that has been lacking in the insurance industry. Every step of the claim verification process, from the submission of all the necessary documents, is recorded on the blockchain, creating an immutable record that all stakeholders can trust. This transparency reduces disputes and fosters a sense of fairness among policyholders.
+
+## 🚀 Challenges we ran into <a name = "challenges"></a>
 
 Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
 in the future.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Technologies We Used <a name = "tech"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development
 and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Link <a name = "link"></a>
+
+### Video Demo <a name = "video"></a>
+
+### Cover Image <a name = "cover_img"></a>
 
 What things you need to install the software and how to install them.
 
