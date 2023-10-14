@@ -9,33 +9,6 @@ import Logoreg from '../../../Images/Logo-reg.png';
 import './Header.css';
 
 const Header = () => {
-  const { user, logout } = useAuth();
-
-  return (
-    <div className="head-bg">
-      <Navbar className="navbar" collapseOnSelect expand="lg">
-        <Container className="container-head p-2 flex items-end align-end justify-end">
-          <Navbar.Brand href="/home">
-            <img
-              src={Logoreg}
-              alt="Logo-reg"
-              style={{ width: "220px", height: "60px" }}
-            />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto align-items-center" style={{margin: 'auto'}}>
-              <Link to="/home" className="list-item text-decoration-none">
-                Home
-              </Link>
-              <Link to="/about" className="list-item text-decoration-none">
-                About
-              </Link>
-              <Link to="/claim" className="list-item text-decoration-none">
-                Claim
-              </Link>
-              {/* <Link to="/about" className='list-item text-decoration-none'>Apply</Link> */}
-
     const { user, logout } = useAuth();
 
     return (
@@ -67,6 +40,7 @@ const Header = () => {
                 </Container>
             </Navbar>
         </div>
+    
     );
 };
 

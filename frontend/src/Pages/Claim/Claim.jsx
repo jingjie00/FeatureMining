@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Button, Form, Input } from 'antd';
 import claimABI from './Claim_ABI.json'; // Import your contract's ABI
-import { ethers } from 'ethers'; // Import ethers
 
 
 const Claim = () => {
+  const ethers = require("ethers")
   const onFinish = async (values) => {
     console.log('Claim Form Data:', values);
 
@@ -17,7 +17,9 @@ const Claim = () => {
     } = values;
 
     try {
-      // Connect to Ethereum using Ethers.js
+
+
+    //  Connect to Ethereum using Ethers.js
       if (window.ethereum) {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -29,16 +31,19 @@ const Claim = () => {
         const claimAmountWei = ethers.utils.parseEther(claimAmount);
 
         // Call the makeClaim function on your contract
-        const transaction = await contract.makeClaim(
-          claimAmountWei,
-          insurancePolicyID,
-          claimDate,
-          supportingDocuments,
-          codeAuthorityReport
+        console.log(contract)
+        const transaction = await contract.testTrial(
+          // claimAmountWei,
+          // insurancePolicyID,
+          // claimDate,
+          // supportingDocuments,
+          // codeAuthorityReport
         );
 
-        await transaction.wait(); // Wait for the transaction to be mined
-        console.log('Claim successful. Transaction hash:', transaction.hash);
+      
+
+        console.log(transaction)
+        console.log('Claim successful. Transaction hash:', transaction);
       } else {
         console.error('Ethereum provider not available. Make sure you have MetaMask or a compatible wallet installed.');
       }
