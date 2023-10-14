@@ -18,8 +18,6 @@ const Home = () => {
            <Feature />
            <About />
            <Service />
-           <Appoinment />
-           <Testimonial />
            <LatestBlog />
            <Slick />
         </>

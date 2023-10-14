@@ -5,7 +5,7 @@ import Blog from '../../Pages/Home/Blog/Blog';
 
 const LatestBlog = () => {
     return (
-        <section className="blog-wrapper pt-0">
+        <section className="blog-wrapper pt-0 mt-5">
             <Container>
                 <Row>
                     <Col sm={12} className="text-center">

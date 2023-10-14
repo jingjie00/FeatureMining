@@ -67,7 +67,7 @@ const Login = () => {
 
                                              
                                            
-                                                <h2 className="mt-1 mb-5 pb-1">We are The InShield Team</h2>
+                                                <h2 className="mt-1 mb-5 pb-1">We are The inShield Team</h2>
                                             </div>
                                             <p className="d-flex justify-content-start">Please login to your account</p>
                                             <form onSubmit={handleSubmit}>
