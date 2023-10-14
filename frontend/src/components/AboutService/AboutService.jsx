@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { AboutFocus } from '../../FakeData/AboutFocus';
+import { AboutFocus } from '../../DataArr/AboutFocus';
 import Services from '../../Pages/Home/Services/Services';
 
 const Service = () => {

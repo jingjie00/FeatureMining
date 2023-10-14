@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FakeBlog } from '../../FakeData/blog';
+import { FakeBlog } from '../../DataArr/blog';
 import Blog from '../../Pages/Home/Blog/Blog';
 
 const LatestBlog = () => {
