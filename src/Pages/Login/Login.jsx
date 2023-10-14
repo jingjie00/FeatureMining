@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import useAuth from '../../Hooks/useAuth';
 import './Login.css';
+import Logo from '../../Images/Logo.png';
 
 
 const Login = () => {
@@ -57,9 +58,11 @@ const Login = () => {
                                 <div className="row g-0">
                                     <div className="col-lg-6">
                                         <div className="card-body p-md-5 mx-md-4">
-                                            <div className="text-center">
-                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" className="card-img" alt="logo" />
-                                                <h4 className="mt-1 mb-5 pb-1">We are The InShield Team</h4>
+                                            <div className="text-center flex-col align-center justify-center items-center">
+
+                                               <img  src={Logo} alt="Logo" style={{ width: '350px', height: '300px' }}/>
+                                           
+                                                <h2 className="mt-1 mb-5 pb-1">We are The InShield Team</h2>
                                             </div>
                                             <p className="d-flex justify-content-start">Please login to your account</p>
                                             <form onSubmit={handleSubmit}>
@@ -89,10 +92,8 @@ const Login = () => {
                                     </div>
                                     <div className="col-lg-6 d-flex align-items-center gradient-custom-2">
                                         <div className="text-white px-3 py-4 p-md-5 mx-md-4">
-                                            <h4 className="mb-4">We are more than just a company</h4>
-                                            <p className="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <h1 style={{ fontSize: '40px' }}>Welcome to a Family</h1>
+                                <p>Welcome to a Family: Where Your Insurance Journey Begins with Trust, Support, and Community. At our community-driven insurance platform, we're more than just a policy provider – we're your trusted partners on the path to secure and meaningful protection. Our dedicated team tailors insurance coverage to your unique needs while fostering a sense of community and trust. Discover insurance that's more than just a policy – it's a promise of security, support, and genuine care.</p>
                                         </div>
                                     </div>
                                 </div>
