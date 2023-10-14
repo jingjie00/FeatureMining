@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import expertDentist from '../../../Images/experienceddentist.png';
-import './Dentist.css';
 
 const Dentist = () => {
     return (

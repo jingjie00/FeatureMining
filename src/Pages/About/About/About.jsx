@@ -13,7 +13,6 @@ const About = () => {
           <Banner />
           <Content /> 
           <AboutService />
-          <Dentist />
           <Achivement />
           <LatestBlog />
           <Appoinment />
