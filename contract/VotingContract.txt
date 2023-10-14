@@ -1,1 +1,76 @@
-pragma
+Voting Contract
+- Address: 0xAA8519f73FeE9F59130CCf80fE0e1752b6304041
+- ABI:[
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "claimId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint8",
+                    "name": "decision",
+                    "type": "uint8"
+                }
+            ],
+            "name": "vote",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "claimId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "voter",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint8",
+                    "name": "decision",
+                    "type": "uint8"
+                }
+            ],
+            "name": "VoteSubmitted",
+            "type": "event"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "pendingClaimings",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "voter",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint8",
+                    "name": "decision",
+                    "type": "uint8"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
