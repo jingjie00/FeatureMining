@@ -27,13 +27,13 @@ Community-Driven Insurance : Where Community Shapes Insurance
 ## ⛓️ The Problem it Solves <a name = "problem"></a>
 
 1. Fraud Detection and Prevention:
-Insurance fraud has always been a pervasive issue within the industry, costing insurers billions of dollars annually. The blockchain's immutability and transparency provide a robust defense against fraudulent claims. Through its decentralized ledger, the application securely records and time-stamps each claim's details, making it nearly impossible for policyholders to tamper with information or submit false claims.
+  Insurance fraud has always been a pervasive issue within the industry, costing insurers billions of dollars annually. The blockchain's immutability and transparency provide a robust defense against fraudulent claims. Through its decentralized ledger, the application securely records and time-stamps each claim's details, making it nearly impossible for policyholders to tamper with information or submit false claims.
 
 2. Eliminating Manual Verification:
-One of the most significant problems this blockchain application addresses is the burden of manual claim verification. In the traditional insurance industry, each claim must be painstakingly reviewed by insurance agents, a process that often involves sifting through heaps of documents and verifying the authenticity of the provided information. This manual verification process is not only time-consuming but also prone to human errors, leading to delayed or incorrect claim processing
+  One of the most significant problems this blockchain application addresses is the burden of manual claim verification. In the traditional insurance industry, each claim must be painstakingly reviewed by insurance agents, a process that often involves sifting through heaps of documents and verifying the authenticity of the provided information. This manual verification process is not only time-consuming but also prone to human errors, leading to delayed or incorrect claim processing
 
 3. Increased Trust and Transparency:
-By utilizing blockchain technology, this application fosters a level of trust and transparency that has been lacking in the insurance industry. Every step of the claim verification process, from the submission of all the necessary documents, is recorded on the blockchain, creating an immutable record that all stakeholders can trust. This transparency reduces disputes and fosters a sense of fairness among policyholders.
+  By utilizing blockchain technology, this application fosters a level of trust and transparency that has been lacking in the insurance industry. Every step of the claim verification process, from the submission of all the necessary documents, is recorded on the blockchain, creating an immutable record that all stakeholders can trust. This transparency reduces disputes and fosters a sense of fairness among policyholders.
 
 ## 🚀 Challenges we ran into <a name = "challenges"></a>
 
