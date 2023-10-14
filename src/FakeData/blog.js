@@ -1,23 +1,23 @@
 export const FakeBlog = [
     {
         "id": "001",
-        "title": "Maximize Your 2019 Dental Insurance with lots of Benefits",
+        "title": "Travel Insurance Demystified: Essential Tips for Stress-Free Journeys",
         "span1": "Post by: Salman",
         "span2": "12 Oct, 2019",
-        "img": "https://i.ibb.co/1LnXPFk/blog1.jpg"
+        "img": "https://www.myperfectresume.com/wp-content/uploads/2020/09/5-common-questions-for-life-insurance-agent.jpg"
     },
     {
         "id": "002",
-        "title": "Are Your Teeth Making You Old? Are You Surprised! Hope you'r Shocked",
+        "title": "Is Your Home Fully Covered? Demystifying Home Insurance",
         "span1": "Post by: admin",
         "span2": "14 Oct, 2019",
-        "img": "https://i.ibb.co/9hNpRkD/blog2.jpg"
+        "img": "https://www.charlesnewman.com/wp-content/uploads/2020/05/Group-Health-Insurance-Broker.jpg"
     },
     {
         "id": "003",
-        "title": "Dental Implants: The Next Best Thing to Get Natural Teeth",
+        "title": "Life's Uncertainties: Why You Need a Solid Life Insurance Plan",
         "span1": "Post by: Salman",
         "span2": "10 Jan, 2020",
-        "img": "https://donto-react.netlify.app/static/media/blog3.4104f17c.jpg"
+        "img": "https://cdn.remarkgroup.com/_925x540_crop_center-center_none/Update3.jpg"
     }
 ]

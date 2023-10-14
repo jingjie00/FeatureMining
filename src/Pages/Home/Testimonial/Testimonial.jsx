@@ -19,7 +19,7 @@ const Testimonial = () => {
                 <Row>
                     <Col sm={12}>
                         <div className="section-title">
-                            <h1>Testimonials</h1>
+                        <h1 style={{ fontSize: '60px' }}>Testimonials</h1>
                         </div>
                     </Col>
                 </Row>
@@ -27,7 +27,7 @@ const Testimonial = () => {
                     <Col md={6} lg={4} sm={12}>
                         <div className="client-box text-center" data-aos="fade-right">
                             <div className="client-img">
-                                <img src={ceo} alt="" style={{ width: '325px', height: '250px' }}/>
+                                <img src={ceo} alt="" style={{ width: '450px', height: '250px' }}/>
                             </div>
                             <h3 className="mt-4">Aliceano Colby</h3>
                             <span>CEO of Prime IT</span>

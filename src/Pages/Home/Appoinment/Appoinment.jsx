@@ -9,8 +9,12 @@ const Appoinment = () => {
             <Container>
                 <Row>
                     <Col sm={12} md={12}>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                         <div className="section-title">
-                            <h1 className="mt-5">Request Appointment</h1>
+                            <h1 style={{ fontSize: '60px' }}>Request Appointment</h1>
                         </div>
                         <div className="appoinment-form">
                             <form action="#" className="row">
