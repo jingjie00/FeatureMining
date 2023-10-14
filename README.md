@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="./Logo-reg.png" alt="Project logo"></a>
+ <img src="./logo-reg.png" alt="inShield"></a>
 </p>
 <h3 align="center">inShield</h3>
 
