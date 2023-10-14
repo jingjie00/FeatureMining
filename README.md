@@ -95,3 +95,360 @@ who participated in this project.
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
+
+Police Report Storage Contract
+ - Address: 0x6FB195624Dd69E375798f4878525D0e3156F7735
+ - ABI: [
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "bool",
+                "name": "isPassed",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxClaimAmount",
+                "type": "uint256"
+              }
+            ],
+            "name": "addPoliceReport",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              }
+            ],
+            "name": "getPoliceReport",
+            "outputs": [
+              {
+                "components": [
+                  {
+                    "internalType": "bool",
+                    "name": "isPassed",
+                    "type": "bool"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "maxClaimAmount",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct reportResult",
+                "name": "",
+                "type": "tuple"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+              }
+            ],
+            "name": "policeReports",
+            "outputs": [
+              {
+                "internalType": "bool",
+                "name": "isPassed",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxClaimAmount",
+                "type": "uint256"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "bool",
+                "name": "isPassed",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxClaimAmount",
+                "type": "uint256"
+              }
+            ],
+            "name": "updatePoliceReport",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          }
+        ]
+
+Trusted Insurance Contract
+- Address: 0x316C5f67462710C30fe8e5435EF8504ED0570E14
+- ABI:  [
+          {
+            "inputs": [
+              {
+                "internalType": "address",
+                "name": "_policeReportStorageAddress",
+                "type": "address"
+              }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+          },
+          {
+            "anonymous": false,
+            "inputs": [
+              {
+                "indexed": true,
+                "internalType": "address",
+                "name": "policyOwner",
+                "type": "address"
+              },
+              {
+                "indexed": false,
+                "internalType": "bool",
+                "name": "isValid",
+                "type": "bool"
+              }
+            ],
+            "name": "ClaimValidated",
+            "type": "event"
+          },
+          {
+            "anonymous": false,
+            "inputs": [
+              {
+                "indexed": true,
+                "internalType": "address",
+                "name": "policyOwner",
+                "type": "address"
+              },
+              {
+                "indexed": false,
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              }
+            ],
+            "name": "PolicyCreated",
+            "type": "event"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "_ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "_policyName",
+                "type": "string"
+              },
+              {
+                "internalType": "uint256",
+                "name": "claimCoverageAmount",
+                "type": "uint256"
+              }
+            ],
+            "name": "purchasePolicy",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "_ipfsHash",
+                "type": "string"
+              }
+            ],
+            "name": "updatePolicyClaimNum",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          },
+          {
+            "inputs": [],
+            "name": "getPolicy",
+            "outputs": [
+              {
+                "components": [
+                  {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "ipfsHash",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "bool",
+                    "name": "isActive",
+                    "type": "bool"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "startDate",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "endDate",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "coverageAmount",
+                    "type": "uint256"
+                  },
+                  {
+                    "internalType": "int256",
+                    "name": "maxClaim",
+                    "type": "int256"
+                  },
+                  {
+                    "internalType": "int256",
+                    "name": "pastClaimNumber",
+                    "type": "int256"
+                  }
+                ],
+                "internalType": "struct policy[]",
+                "name": "",
+                "type": "tuple[]"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+              }
+            ],
+            "name": "insured",
+            "outputs": [
+              {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "bool",
+                "name": "isActive",
+                "type": "bool"
+              },
+              {
+                "internalType": "uint256",
+                "name": "startDate",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "endDate",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "coverageAmount",
+                "type": "uint256"
+              },
+              {
+                "internalType": "int256",
+                "name": "maxClaim",
+                "type": "int256"
+              },
+              {
+                "internalType": "int256",
+                "name": "pastClaimNumber",
+                "type": "int256"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [],
+            "name": "policeReportStorage",
+            "outputs": [
+              {
+                "internalType": "contract PoliceReportStorage",
+                "name": "",
+                "type": "address"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "_ipfsHash",
+                "type": "string"
+              },
+              {
+                "internalType": "uint256",
+                "name": "_claimAmount",
+                "type": "uint256"
+              },
+              {
+                "internalType": "string",
+                "name": "_reportCode",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "_docLinks",
+                "type": "string"
+              }
+            ],
+            "name": "validateClaim",
+            "outputs": [
+              {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          }
+        ]
