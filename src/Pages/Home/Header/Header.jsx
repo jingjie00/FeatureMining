@@ -4,7 +4,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import Logo from '../../../Images/logo.png';
+import Logo from '../../../Images/Logo.png';
 import Logoreg from '../../../Images/Logo-reg.png';
 import './Header.css';
 
