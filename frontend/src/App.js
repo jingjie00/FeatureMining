@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home/Home.jsx';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Claim from './Pages/Claim/Claim.jsx';
+import Voting from './Pages/Voting/Voting.jsx';
 import 'antd/dist/reset.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/login' element={<Login />} />
           <Route path='/claim' element={<Claim />} />
+          <Route path='/voting' element={<Voting />} />
           <Route path='*' element={<NotFound />} />
           
         </Routes>

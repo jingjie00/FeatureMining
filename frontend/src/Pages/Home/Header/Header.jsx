@@ -24,7 +24,7 @@ const Header = () => {
                             <Link to="/home" className='list-item text-decoration-none'>Home</Link>
                             <Link to="/about" className='list-item text-decoration-none'>About</Link>
                             <Link to="/claim" className='list-item text-decoration-none'>Claim</Link>
-                            {/* <Link to="/about" className='list-item text-decoration-none'>Apply</Link> */}
+                            <Link to="/voting" className='list-item text-decoration-none'>Voting</Link>
                     
                             {user.email 
                             ?
