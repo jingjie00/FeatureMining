@@ -1,5 +1,5 @@
 Trusted Insurance Contract
-- Address: 0x43685bE1A56aa789F0EF99a917A640cD4347DD76
+- Address: 0xCcef6B2cCB4A2B8c5D24d3D20dc1E93Bf8cfCdC2
 - ABI:  [
 	{
 		"inputs": [
