@@ -7,31 +7,18 @@
 
 ## 📝 Table of Contents
 
-- [Problem Statement](#problem_statement)
-- [Idea / Solution](#idea)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Project Name](#project_name)
+- [Tagline](#tagline)
+- [The Problem it Solves](#problem)
+- [Challenges we ran into](#challenges)
+- [Technologies We Used](#tech)
+- [Link](#link)
+- [Video Demo](#video)
+- [Cover Image](cover_img)
 
-## 🧐 Problem Statement <a name = "problem_statement"></a>
+## 🧐 Project Name <a name = "project_name"></a>
 
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
-
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section
-  should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product.
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-  This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
-
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution.
+Our project name is called inShield.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
 
