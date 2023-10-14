@@ -19,10 +19,8 @@ const Home = () => {
            <About />
            <Service />
            <Appoinment />
-           <Gallery />
            <Testimonial />
            <LatestBlog />
-           <Promo />
            <Slick />
         </>
     );

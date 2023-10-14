@@ -4,7 +4,8 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-//import logo from '../../../Images/logo.png';
+import Logo from '../../../Images/Logo.png';
+import Logoreg from '../../../Images/Logo-reg.png';
 import './Header.css';
 
 const Header = () => {
@@ -15,6 +16,9 @@ const Header = () => {
         <div className="head-bg">
             <Navbar className="navbar" collapseOnSelect expand="lg">
                 <Container className="container-head p-2 flex items-end align-end justify-end">
+                <Navbar.Brand href="/home">
+                    <img src={Logoreg} alt="Logo-reg" style={{ width: '300px', height: '100px' }} />
+                </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto align-items-center">

@@ -1,9 +1,7 @@
 import "@fontsource/josefin-sans";
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-//import doctorfinding from '../../../Images/doctorfinding.c2532ac3.png';
-//import heroTeeth from '../../../Images/hero-theeth.54c2c4e9.png';
-//import womanbrush from '../../../Images/woman-brush.c4158ac5.png';
+import protection from '../../../Images/protection_family.png';
 import './Banner.css';
 
 
@@ -15,19 +13,20 @@ const Banner = () => {
                     <Row className="align-items-center">
                         <Col md={12} sm={12} lg={6}>
                             <div className="hero-slide-left justify-content-end align-items-center text-center text-lg-start">
-                                <h2>Better Life Through</h2>
-                                <h1 className="">Better Dentistry</h1>
-                                <p className="mb-xs-5">Join us to a fun and friendly dental environment. Our professionals are working so hard to see smile on your face that you deserve! We are dedicated about our duties.</p>
+                                <h2>Community-Driven Insurance</h2>
+                                <h1 className="">Where Community Shapes Insurance</h1>
+                                <p className="mb-xs-5">Join our vibrant community-driven insurance platform where members come together to create a friendly, supportive environment. Our dedicated team works tirelessly to ensure you have the insurance coverage you deserve, all while fostering a sense of community and trust.</p>
                                 <div className="banner-btn m-sm-auto">
-                                    <Link to="/login"><button className="theme-btn btn-fill">Appoinment</button></Link>
-                                    <button className='theme-btn bth-blank'>Learn More</button>
+                                    <Link to="/login"><button className="theme-btn btn-fill">Apply Now</button></Link>
+                                    <button className='theme-btn bth-blank text-red-500 '>Learn More</button>
                                 </div>
                             </div>
                         </Col>
                         <Col md={12} sm={12} lg={6} className="mt-sm-5">
-                            <div className="hero-slide-right text-center text-lg-start mt-sm-5">
+                            <div className="hero-slide-right text-center text-lg-start mt-sm-5 relative">
                                 <div className="animate-img">
                                 </div>
+                                <img src={protection} alt="" className="heroTeeth"/>
                             </div>
                         </Col>
                     </Row>
