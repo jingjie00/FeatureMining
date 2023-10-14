@@ -9,6 +9,8 @@ import './Header.css';
 
 const Header = () => {
 
+    
+
     const { user, logout } = useAuth();
 
     return (

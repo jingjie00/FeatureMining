@@ -52,3 +52,13 @@
         padding: 20px 8px;
     }
 }
+
+.footer-logo {
+    background-image: url('../../../Images/single-fun-bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}

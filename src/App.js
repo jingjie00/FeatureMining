@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home/Home.jsx';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Claim from './Pages/Claim/Claim.jsx';
+import 'antd/dist/reset.css';
 
 function App() {
   return (
