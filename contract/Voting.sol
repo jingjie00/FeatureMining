@@ -1,15 +1,54 @@
 pragma solidity ^0.8.0;
 
-// Make is a contract called Voting. It have several methods and variables.
+pragma solidity ^0.8.0;
 
+// Import other contracts if needed
+// import "./InsuranceClaimingContract.sol";
+// import "./UserReputationContract.sol";
 
-// First, it can get pendingClaiming from the InsuranceClaimingContract
-// Second, it can receive user vote and update to the pendingClaiming
-// There might be a situation where the entries is for verification which we already have ground truth
-// If the user violate that, update the another contract called UserReputationContract
-// If the user is good, update the another contract called UserReputationContract
-// After certain input is reach for the pendingClaiming for a specific claim, weight the vote according to the UserReputationContract, and label it before submitback to Insurance Claiming Contracr
-// The Insurance Claiming Contract will then update the claim status.
-// The user will receive reputation from this cycle
+contract Voting {
+    // Reference to other contracts
+    // InsuranceClaimingContract public insuranceClaimingContract;
+    // UserReputationContract public userReputationContract;
 
+    // Struct to represent a vote
+    struct Vote {
+        address voter;
+        uint8 decision; // 1 for approval, 2 for violation
+    }
 
+    // Mapping to store pending claimings and their corresponding votes
+    mapping(uint256 => mapping(address => Vote)) public pendingClaimings;
+
+    // Event to log vote submission
+    event VoteSubmitted(uint256 claimId, address voter, uint8 decision);
+
+    // Function to get pendingClaiming from InsuranceClaimingContract
+    // function getPendingClaiming(uint256 claimId) external view returns (ClaimingData) {
+    //     // Implement logic to get pendingClaiming from InsuranceClaimingContract
+    // }
+
+    // Function to receive user vote and update pendingClaiming
+    function vote(uint256 claimId, uint8 decision) external {
+        // Get pendingClaiming from InsuranceClaimingContract
+        // ClaimingData memory pendingClaiming = insuranceClaimingContract.getPendingClaiming(claimId);
+
+        // Implement logic to validate vote, update pendingClaiming, and update UserReputationContract accordingly
+        // ...
+
+        // Emit event for vote submission
+        emit VoteSubmitted(claimId, msg.sender, decision);
+    }
+
+    // Function to label the vote and update InsuranceClaimingContract
+    function labelVote(uint256 claimId) external {
+        // Get pendingClaiming from InsuranceClaimingContract
+        // ClaimingData memory pendingClaiming = insuranceClaimingContract.getPendingClaiming(claimId);
+
+        // Implement logic to weight the vote according to UserReputationContract and label it
+        // ...
+
+        // Update InsuranceClaimingContract with labeled vote
+        // insuranceClaimingContract.updateClaimStatus(claimId, labeledVote);
+    }
+}
