@@ -7,6 +7,7 @@ import Header from './Pages/Home/Header/Header.jsx';
 import Home from './Pages/Home/Home/Home.jsx';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
+import Claim from './Pages/Claim/Claim.jsx';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/claim' element={<Claim />} />
           <Route path='*' element={<NotFound />} />
+          
         </Routes>
         <Footer />
       </Router>
