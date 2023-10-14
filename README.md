@@ -48,10 +48,10 @@ Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript
 ### Hosting & Contract Link <a id = "link"></a>
 - The frontend website: https://feature-mining.web.app/
 - The 4 contracts:
-      [Police Report Storage Contract](/contract/PolicReportStorageContract.txt)
+      [Police Report Storage Contract](/contract/StorageContract.txt)
       [Trusted Insurance Contract](/contract/TrustedInsuranceContract.txt)
-      [Voting Contract](/contract/TrustedInsuranceContract.txt)
-      [Reputation Contract](/contract)
+      [Voting Contract](/contract/VotingContract.txt)
+      [Reputation Contract](/contract/ReputationContract.txt)
 
 ### Video Demo <a id = "video"></a>
 
