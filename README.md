@@ -46,12 +46,18 @@ This project represents a significant leap forward in the realm of decentralized
 Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript 
 
 ### Hosting & Contract Link <a id = "link"></a>
-- The frontend website: https://feature-mining.web.app/
+- The frontend website: 
+  [Main](https://feature-mining.web.app)
+  [Backup](https://feature-mining.firebaseapp.com)
+- The 2 IPFS 
+  [Storage]  https://ipfs.io/ipfs/QmSMaeoKXUxt6HVoHcQRYTsbbAWovUwjETvaSsWpXQqvUn
+  [Claiming] https://ipfs.io/ipfs/QmdatEiKWSaqMPmKn9zgero1Pqq7cr1gGb6UVYWRaivd3Q
 - The 4 contracts:
       [Police Report Storage Contract](/contract/StorageContract.txt)
       [Trusted Insurance Contract](/contract/TrustedInsuranceContract.txt)
       [Voting Contract](/contract/VotingContract.txt)
       [Reputation Contract](/contract/ReputationContract.txt)
+
 
 ### Video Demo <a id = "video"></a>
 
