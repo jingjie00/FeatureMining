@@ -12,13 +12,13 @@ const Achivement = () => {
                 <Row className="align-items-center">
                     <Col md={6} lg={6} sm={12}>
                         <div className="section-title">
-                            <h1>Our Achievement</h1>
+                        <h1 style={{ fontSize: '60px' }}>Our Achievement</h1>
                         </div>
                         <div className="achivement-txt">
-                            <p className="w-75">Smiling comes naturally to Dr. Harrie, author of ‘Donto’. He has embraced Cosmetic Dentistry and has redesigned the smiles for thev thousands of patients.</p>
+                            <p className="w-75">Smiling comes naturally to Dr. Tan, author of ‘inShield’. He has has wholeheartedly embraced the innovation of blockchain insurance, transforming the protection and security of thousands of clients.</p>
                             <div className="more-tool">
-                            <Link to="/login"><button  className="theme-btn btn-fill">Appoinment</button></Link>
-                            <a href="https://www.youtube.com/watch?v=7HhdN9_MgE8" className="watchBtn"><button className="theme-btn btn-unfill"><FontAwesomeIcon className="play-btn" icon={faPlayCircle} /><span>Watch Vedio</span></button></a>
+                            <Link to="/login"><button  className="theme-btn btn-fill">Apply Now</button></Link>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="watchBtn"><button className="theme-btn btn-unfill"><FontAwesomeIcon className="play-btn" icon={faPlayCircle} /><span>Watch Video</span></button></a>
                             </div>
                         </div>
                     </Col>
@@ -26,26 +26,26 @@ const Achivement = () => {
                         <Row className="achivement-funfact text-white">
                             <Col sm={6} className="text-center">
                                 <div className="single-funfact">
-                                    <span>22 +</span>
-                                    <p>Patients</p>
+                                    <span>500+</span>
+                                    <p>Happy Customers</p>
                                 </div>
                             </Col>
                             <Col sm={6} className="text-center">
                                 <div className="single-funfact">
-                                    <span>75 +</span>
-                                    <p>Dentist</p>
+                                    <span>50+</span>
+                                    <p>Qualified Developers</p>
                                 </div>
                             </Col>
                             <Col sm={6} className="text-center">
                                 <div className="single-funfact">
-                                    <span>25 +</span>
-                                    <p>Awards</p>
+                                    <span>10+</span>
+                                    <p>Years Experience</p>
                                 </div>
                             </Col>
                             <Col sm={6} className="text-center">
                                 <div className="single-funfact">
-                                    <span>28 +</span>
-                                    <p>Branch</p>
+                                    <span>25+</span>
+                                    <p>Insurance Awards</p>
                                 </div>
                             </Col>
                         </Row>
