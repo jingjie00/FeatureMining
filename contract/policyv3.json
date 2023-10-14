@@ -1,0 +1,51 @@
+{
+  "policyName": "Travel Baggage Premium Lite",
+  "policyProvider": "Tune Protect",
+  "providerContact": "014-7965230",
+  "policyNumber": "8888-888-666",
+  "policyEffectiveDate": "2005-04-03",
+  "Approval Criteria": [
+    {
+      "name": "Claim Amount",
+      "condition": "lt",
+      "reference": "Policy Coverage Amount",
+    },
+    {
+      "name": "Claim Amount",
+      "condition": "lt",
+      "reference": "Policy Approved Amount",
+    },
+    {
+      "name": "Claim Start Date",
+      "condition": "gt",
+      "reference": "Policy start date",
+    },
+    {
+      "name": "Claim End Date",
+      "condition": "lt",
+      "reference": "Policy end date",
+    },
+    {
+      "name": "Claim history",
+      "condition": "lt",
+      "reference": "Maximum Claim Number",
+    },
+    {
+      "name": "Authority Report",
+      "condition": "eq",
+      "reference": "true",
+    },
+  ]
+  "Grey Criteria": [
+    {
+      "name": "Authority Report",
+      "condition": "eq",
+      "reference": "false",
+    },
+    {
+      "name": "Support Document Provided",
+      "condition": "eq",
+      "reference": "true",
+    },
+  ]
+}
