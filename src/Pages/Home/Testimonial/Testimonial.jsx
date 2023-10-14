@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import client from '../../../Images/testi1.png';
+//import client from '../../../Images/testi1.png';
 import './Testimonial.css';
 
 const Testimonial = () => {
@@ -27,7 +27,6 @@ const Testimonial = () => {
                     <Col md={6} lg={4} sm={12}>
                         <div className="client-box text-center" data-aos="fade-right">
                             <div className="client-img">
-                                <img src={client} alt="" />
                             </div>
                             <h3 className="mt-4">Aliceano Colby</h3>
                             <span>CEO of Prime IT</span>

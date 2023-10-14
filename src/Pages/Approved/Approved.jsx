@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import approved from '../../../src/Images/approved.jpg';
+//import approved from '../../../src/Images/approved.jpg';
 
 const Approved = () => {
     return (
@@ -12,7 +12,6 @@ const Approved = () => {
                     </div>
                 </Col>
                 <Col md={12} lg={12} sm={12}>
-                    <img src={approved} alt="" className="img-fluid" />
                 </Col>
             </Row>
         </Container>

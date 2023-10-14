@@ -1,12 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
-import slider1 from '../../../Images/slider1.png';
-import slider2 from '../../../Images/slider2.png';
-import slider3 from '../../../Images/slider3.png';
-import slider4 from '../../../Images/slider4.png';
-import slider5 from '../../../Images/slider5.png';
-import slider6 from '../../../Images/slider6.png';
 import './Slick.css';
 
 const settings = {
@@ -61,22 +55,16 @@ const Slick = () => {
                     <Col md={12}>
                         <Slider {...settings}>
                             <div className="single-brand-logo">
-                                <img src={slider1} alt="" />
                             </div>
                             <div className="single-brand-logo">
-                                <img src={slider2} alt="" />
                             </div>
                             <div className="single-brand-logo">
-                                <img src={slider3} alt="" />
                             </div>
                             <div className="single-brand-logo">
-                                <img src={slider4} alt="" />
                             </div>
                             <div className="single-brand-logo">
-                                <img src={slider5} alt="" />
                             </div>
                             <div className="single-brand-logo">
-                                <img src={slider6} alt="" />
                             </div>
                         </Slider>
                     </Col>
