@@ -13,20 +13,31 @@ const Claim = () => {
       console.log('Success:', values);
     };
 
- return   <section className="">
-            <Container>
-                <div className="text-xl font-bold justify-start flex">Claim Insurance</div>
 
-                <div className="mt-3 w-1/2">
-                  <Form name="claimInsuranceForm"
+ return   <section className=" px-5 md:justify-center md:items-center">
+
+<div className="text-xl font-bold flex mt-2" style={{fontSize: "18pt"}}>Claim Insurance</div>
+
+
+<div className="flex">
+
+<div className="flex md:w-1/3 hidden md:contents md:block">{" "}</div>
+
+   
+   <div className="flex md:justify-center md:items-center w-full md:w-1/3">
+
+                <div className="mt-3 md:w-3/4 ">
+                  <Form name="claimInsuranceForm" labelWrap
+                    layout="vertical"
     onFinish={onFinish}>
  <Form.Item
-      label="Username"
-      name="username"
+      label="Claim Amount"
+      name="claimAmount"
+      labelWrap
       rules={[
         {
           required: true,
-          message: 'Please input your username!',
+          message: 'Please input your claim amount!',
         },
       ]}
     >
@@ -34,21 +45,64 @@ const Claim = () => {
     </Form.Item>
 
     <Form.Item
-      label="Username"
-      name="username"
+      label="Insurance Policy ID"
+      name="insurancePolicyID"
+      labelWrap
       rules={[
         {
           required: true,
-          message: 'Please input your username!',
+          message: 'Please input your insurance policy ID!',
         },
       ]}
     >
       <Input />
     </Form.Item>
+
+    <Form.Item
+      label="Claim Date"
+      name="claimDate"
+      rules={[
+        {
+          required: true,
+          message: 'Please input your claim date!',
+        },
+      ]}
+    >
+      <Input />
+    </Form.Item>
+
+    <Form.Item
+      label="Supporting Documents (Link ONLY) (Optional)"
+      name="supportingDocuments"
+      
+      
+    >
+      <Input className="rounded-lg" />
+    </Form.Item>
+
+    <Form.Item
+      label="Code of Authority Report (Optional)"
+      name="codeAuthorityReport"
+     
+    >
+      <Input className="rounded-lg" />
+    </Form.Item>
+
                   
+                 
+    <Form.Item label=" ">
+      <Button className="primary text-white" htmlType="submit" style={{background: "blue"}}>
+        Submit
+      </Button>
+    </Form.Item>
                   </Form>
                 </div>
-            </Container>
+   </div>
+</div>
+
+            
+             
+           
         </section>
 };
 
