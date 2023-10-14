@@ -26,7 +26,7 @@ const About = () => {
                     <Col md={12} lg={6}>
                         <div className="about-right mt-5 mt-lg-0">
                             <div className="about-content text-start" data-aos="zoom-in">
-                                <h1>Welcome to a Family</h1>
+                                <h1 style={{ fontSize: '60px' }}>Welcome to a Family</h1>
                                 <p>Welcome to a Family: Where Your Insurance Journey Begins with Trust, Support, and Community. At our community-driven insurance platform, we're more than just a policy provider – we're your trusted partners on the path to secure and meaningful protection. Our dedicated team tailors insurance coverage to your unique needs while fostering a sense of community and trust. Discover insurance that's more than just a policy – it's a promise of security, support, and genuine care.</p>
                                 <a href='/page/about'>About Us</a>
                             </div>

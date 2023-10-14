@@ -10,7 +10,7 @@ const LatestBlog = () => {
                 <Row>
                     <Col sm={12} className="text-center">
                         <div className="section-title">
-                            <h1>Latest Blog</h1>
+                        <h1 style={{ fontSize: '60px' }}>Latest Blog</h1>
                         </div>
                     </Col>
                 </Row>
