@@ -35,7 +35,7 @@ const Footer = () => {
             <Col xs={6} md={3}>
               <div className="single-footer-widget">
                 <div className="widget-content">
-                  <img src={logoreg} alt="Logo" />
+                  <img src={logoreg} alt="Logo" style={{backgroundColor:'white'}} />
                 </div>
               </div>
             </Col>
