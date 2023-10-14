@@ -1,7 +1,5 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import serviceDetailImg from '../../../Images/service-details-promo1.png';
-import serviceDetailImg2 from '../../../Images/service-details-promo2.png';
 import './Detail.css';
 
 const Detail = () => {
@@ -18,7 +16,6 @@ const Detail = () => {
                             </div>
                         </Col>
                         <Col lg={6} sm={12} xs={12}>
-                            <img src={serviceDetailImg} alt="expertDentist" className="img-fluid" />
                         </Col>
                     </Row>
                 </Container>
@@ -28,7 +25,6 @@ const Detail = () => {
                 <Container>
                     <Row className="align-items-center p-5">
                         <Col lg={6} sm={12} xs={12}>
-                            <img src={serviceDetailImg2} alt="expertDentist" className="img-fluid pt-xs-5" />
                         </Col>
                         <Col lg={6} sm={12} xs={12}>
                             <div className="expertDentist-txt mt-5 mt-lg-0">
