@@ -4,7 +4,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import Logo from '../../../Images/Logo.png';
+import Logo from '../../../Images/logo.png';
 import Logoreg from '../../../Images/Logo-reg.png';
 import './Header.css';
 
@@ -15,7 +15,7 @@ const Header = () => {
     const { user, logout } = useAuth();
 
     return (
-        <div className="head-bg">
+        <div className="sticky top-0 fixed z-50">
             <Navbar className="navbar" collapseOnSelect expand="lg">
                 <Container className="container-head p-2 flex items-end align-end justify-end">
                 <Navbar.Brand href="/home">

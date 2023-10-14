@@ -14,17 +14,17 @@ const Claim = () => {
     };
 
 
- return   <section className=" px-5 md:justify-center md:items-center">
+ return   <section className=" px-5 md:justify-center md:items-center" >
 
-<div className="text-xl font-bold flex mt-2" style={{fontSize: "18pt"}}>Claim Insurance</div>
+<div className="text-xl font-bold flex mt-2 justify-center" style={{fontSize: "18pt"}}>Claim Insurance</div>
 
 
-<div className="flex">
+<div className="flex justify-center">
 
-<div className="flex md:w-1/3 hidden md:contents md:block">{" "}</div>
+<div className="flex md:w-1/2 hidden md:contents md:block">{" "}</div>
 
    
-   <div className="flex md:justify-center md:items-center w-full md:w-1/3">
+   <div className="flex md:justify-center md:items-center w-full md:w-1/2">
 
                 <div className="mt-3 md:w-3/4 ">
                   <Form name="claimInsuranceForm" labelWrap

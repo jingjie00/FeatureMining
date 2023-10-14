@@ -5,7 +5,10 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import useAuth from '../../Hooks/useAuth';
 import './Login.css';
-import Logo from '../../Images/Logo.png';
+import Logo from '../../Images/logo.png';
+import firebase from 'firebase/compat/app';
+import * as firebaseui from 'firebaseui'
+import 'firebaseui/dist/firebaseui.css'
 
 
 const Login = () => {
@@ -55,12 +58,14 @@ const Login = () => {
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-xl-10">
                             <div className="card rounded-3 text-black">
-                                <div className="row g-0">
-                                    <div className="col-lg-6">
-                                        <div className="card-body p-md-5 mx-md-4">
+                                <div className="md:row flex justify-center">
+                                    <div className="">
+                                        <div className=" p-md-5 ">
                                             <div className="text-center flex-col align-center justify-center items-center">
+                                            <img  src={Logo} alt="Logo" style={{ width: '350px', height: '300px' }}/>
+                                        
 
-                                               <img  src={Logo} alt="Logo" style={{ width: '350px', height: '300px' }}/>
+                                             
                                            
                                                 <h2 className="mt-1 mb-5 pb-1">We are The InShield Team</h2>
                                             </div>
@@ -90,12 +95,12 @@ const Login = () => {
 
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 d-flex align-items-center gradient-custom-2">
-                                        <div className="text-white px-3 py-4 p-md-5 mx-md-4">
+                                    {/* <div className="col-lg-6 d-flex align-items-center text-black">
+                                        <div className="text-black px-3 py-4 p-md-5 mx-md-4">
                                         <h1 style={{ fontSize: '40px' }}>Welcome to a Family</h1>
                                 <p>Welcome to a Family: Where Your Insurance Journey Begins with Trust, Support, and Community. At our community-driven insurance platform, we're more than just a policy provider – we're your trusted partners on the path to secure and meaningful protection. Our dedicated team tailors insurance coverage to your unique needs while fostering a sense of community and trust. Discover insurance that's more than just a policy – it's a promise of security, support, and genuine care.</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="row my-5">
                                     <div className="col-12">
