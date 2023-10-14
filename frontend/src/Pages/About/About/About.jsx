@@ -8,11 +8,9 @@ import Achivement from '../Achivement/Achivement';
 const About = () => {
     return (
         <>
-          <Content /> 
           <AboutService />
           <Achivement />
           <LatestBlog />
-          <Appoinment />
         </>
     );
 };

@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import useAuth from '../../Hooks/useAuth';
 import './Login.css';
-import Logo from '../../Images/Logo.png';
+import Logo from '../../Images/logo.png';
 
 
 const Login = () => {
@@ -62,7 +62,7 @@ const Login = () => {
 
                                                <img  src={Logo} alt="Logo" style={{ width: '350px', height: '300px' }}/>
                                            
-                                                <h2 className="mt-1 mb-5 pb-1">We are The InShield Team</h2>
+                                                <h2 className="mt-1 mb-5 pb-1">We are The inShield Team</h2>
                                             </div>
                                             <p className="d-flex justify-content-start">Please login to your account</p>
                                             <form onSubmit={handleSubmit}>

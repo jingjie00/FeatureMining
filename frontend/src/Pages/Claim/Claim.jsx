@@ -3,8 +3,6 @@ import "aos/dist/aos.css";
 import React, { useEffect } from 'react';
 import { Button, Checkbox, Form, Input } from 'antd';
 import { Col, Container, Row } from 'react-bootstrap';
-//import donto from '../../../Images/about-banner1.png';
-//import dontoAnimated from '../../../Images/cleaner.png';
 import './Claim.css';
 
 const Claim = () => {

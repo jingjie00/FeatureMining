@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../../Hooks/useAuth";
-import Logo from "../../../Images/Logo.png";
+import Logo from "../../../Images/logo.png";
 import Logoreg from "../../../Images/Logo-reg.png";
 import "./Header.css";
 
@@ -19,7 +19,7 @@ const Header = () => {
             <img
               src={Logoreg}
               alt="Logo-reg"
-              style={{ width: "300px", height: "100px" }}
+              style={{ width: "220px", height: "60px" }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg" />
