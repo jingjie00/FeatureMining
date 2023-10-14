@@ -34,7 +34,7 @@ const Login = () => {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
         .then(resutlt => {
-            const user = resutlt.user
+            const user = {email: email, password: password}
             console.log(user);
         })
         navigate("/approved");
