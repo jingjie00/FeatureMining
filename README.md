@@ -7,59 +7,48 @@
 
 ## 📝 Table of Contents
 
-- [Problem Statement](#problem_statement)
-- [Idea / Solution](#idea)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Project Name](#project_name)
+- [Tagline](#tagline)
+- [The Problem it Solves](#problem)
+- [Challenges we ran into](#challenges)
+- [Technologies We Used](#tech)
+- [Link](#link)
+- [Video Demo](#video)
+- [Cover Image](cover_img)
 
-## 🧐 Problem Statement <a name = "problem_statement"></a>
+## 🧐 Project Name <a name = "project_name"></a>
 
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
+Our project name is called inShield.
 
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section
-  should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product.
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-  This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
+## 💡 Tagline <a name = "tagline"></a>
 
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution.
+Community-Driven Insurance : Where Community Shapes Insurance
 
-## 💡 Idea / Solution <a name = "idea"></a>
+## ⛓️ The Problem it Solves <a name = "problem"></a>
 
-This section is used to describe potential solutions.
+1. Fraud Detection and Prevention:
+Insurance fraud has always been a pervasive issue within the industry, costing insurers billions of dollars annually. The blockchain's immutability and transparency provide a robust defense against fraudulent claims. Through its decentralized ledger, the application securely records and time-stamps each claim's details, making it nearly impossible for policyholders to tamper with information or submit false claims.
 
-Once the ideal, reality, and consequences sections have been
-completed, and understood, it becomes easier to provide a solution for solving the problem.
+2. Eliminating Manual Verification:
+  One of the most significant problems this blockchain application addresses is the burden of manual claim verification. In the traditional insurance industry, each claim must be painstakingly reviewed by insurance agents, a process that often involves sifting through heaps of documents and verifying the authenticity of the provided information. This manual verification process is not only time-consuming but also prone to human errors, leading to delayed or incorrect claim processing
 
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
+3. Increased Trust and Transparency:
+  By utilizing blockchain technology, this application fosters a level of trust and transparency that has been lacking in the insurance industry. Every step of the claim verification process, from the submission of all the necessary documents, is recorded on the blockchain, creating an immutable record that all stakeholders can trust. This transparency reduces disputes and fosters a sense of fairness among policyholders.
 
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if
-  appropriate, describe how these limitations could point to the need for further research.
-
-## 🚀 Future Scope <a name = "future_scope"></a>
+## 🚀 Challenges we ran into <a name = "challenges"></a>
 
 Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
 in the future.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Technologies We Used <a name = "tech"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+React.js, Ethers.js, JavaScript, Solidity, HTML, CSS, 
 
-### Prerequisites
+### Link <a name = "link"></a>
+
+### Video Demo <a name = "video"></a>
+
+### Cover Image <a name = "cover_img"></a>
 
 What things you need to install the software and how to install them.
 
