@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FakeService } from '../../FakeData/Treatment';
+import { FakeService } from '../../DataArr/Treatment';
 import Services from '../../Pages/Home/Services/Services';
 
 const Service = () => {

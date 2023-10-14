@@ -2,22 +2,71 @@
 	{
 		"inputs": [
 			{
+				"internalType": "address",
+				"name": "_policeReportStorageAddress",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "policyOwner",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "bool",
+				"name": "isValid",
+				"type": "bool"
+			}
+		],
+		"name": "ClaimValidated",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "policyOwner",
+				"type": "address"
+			},
+			{
+				"indexed": false,
 				"internalType": "string",
 				"name": "ipfsHash",
 				"type": "string"
+			}
+		],
+		"name": "PolicyCreated",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_ipfsHash",
+				"type": "string"
 			},
 			{
-				"internalType": "bool",
-				"name": "isPassed",
-				"type": "bool"
+				"internalType": "string",
+				"name": "_policyName",
+				"type": "string"
 			},
 			{
 				"internalType": "uint256",
-				"name": "maxClaimAmount",
+				"name": "claimCoverageAmount",
 				"type": "uint256"
 			}
 		],
-		"name": "addPoliceReport",
+		"name": "purchasePolicy",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -26,28 +75,137 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "ipfsHash",
+				"name": "_ipfsHash",
 				"type": "string"
 			}
 		],
-		"name": "getPoliceReport",
+		"name": "updatePolicyClaimNum",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getPolicy",
 		"outputs": [
 			{
 				"components": [
 					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ipfsHash",
+						"type": "string"
+					},
+					{
 						"internalType": "bool",
-						"name": "isPassed",
+						"name": "isActive",
 						"type": "bool"
 					},
 					{
 						"internalType": "uint256",
-						"name": "maxClaimAmount",
+						"name": "startDate",
 						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "coverageAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "maxClaim",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "pastClaimNumber",
+						"type": "int256"
 					}
 				],
-				"internalType": "struct PoliceReportStorage.result",
+				"internalType": "struct policy[]",
 				"name": "",
-				"type": "tuple"
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "insured",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "ipfsHash",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "isActive",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "startDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "endDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "coverageAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "int256",
+				"name": "maxClaim",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "pastClaimNumber",
+				"type": "int256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "policeReportStorage",
+		"outputs": [
+			{
+				"internalType": "contract PoliceReportStorage",
+				"name": "",
+				"type": "address"
 			}
 		],
 		"stateMutability": "view",
@@ -57,21 +215,31 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "",
+				"name": "_ipfsHash",
 				"type": "string"
-			}
-		],
-		"name": "policeReports",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "isPassed",
-				"type": "bool"
 			},
 			{
 				"internalType": "uint256",
-				"name": "maxClaimAmount",
+				"name": "_claimAmount",
 				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_reportCode",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_docLinks",
+				"type": "string"
+			}
+		],
+		"name": "validateClaim",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
 			}
 		],
 		"stateMutability": "view",

@@ -24,7 +24,7 @@ const Voting = () => {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         await window.ethereum.request({ method: 'eth_requestAccounts' });
         const signer = provider.getSigner();
-        const contractAddress = '0x07915845e40A983344074eeA538cf8D36BA29c41'; // Replace with your contract's address
+        const contractAddress = '0x6FB195624Dd69E375798f4878525D0e3156F7735'; // Replace with your contract's address
         const contract = new ethers.Contract(contractAddress, claimABI, signer);
 
         // Convert claimAmount to wei
@@ -70,11 +70,13 @@ const Voting = () => {
 
             <div className='flex justify-end gap-3 align-center items-center mr-5'> <div className='flex align-center'> <Button className='primary outline-double text-black align-center' style={{background: "#90EE90"}} onClick={()=>{
 
+              alert("You have approved an insurance claim.")
+
                
             }}>Approve</Button>  </div>
             <div className='flex align-center'> <Button className='primary outline-double text-black' style={{background: "#ffcccb"}} onClick={()=>{
 
-
+alert("You have rejected an insurance claim.")
 
 }}>Reject</Button>   </div></div>
             

@@ -1,5 +1,5 @@
 import { Container, Row } from "react-bootstrap";
-import { FakeFeatures } from "../../FakeData/Features";
+import { FakeFeatures } from "../../DataArr/Features";
 import Features from "../../Pages/Home/Features/Features";
 
 const Feature = () => {
