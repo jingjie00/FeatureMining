@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import promoBanner from '../../../Images/doctor-nurse.png';
+//import promoBanner from '../../../Images/doctor-nurse.png';
 import './Promo.css';
 
 const Promo = () => {
@@ -17,7 +17,6 @@ const Promo = () => {
                     </Col>
                     <Col md={12} sm={12} lg={6}>
                         <div className="promo-banner">
-                            <img src={promoBanner} alt="" />
                         </div>
                     </Col>
                 </Row>

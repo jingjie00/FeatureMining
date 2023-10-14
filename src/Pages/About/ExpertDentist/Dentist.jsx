@@ -8,7 +8,6 @@ const Dentist = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col lg={6}>
-                        <img src={expertDentist} alt="expertDentist" className="img-fluid" />
                     </Col>
                     <Col lg={6}>
                         <div className="expertDentist-txt mt-5 mt-lg-0">

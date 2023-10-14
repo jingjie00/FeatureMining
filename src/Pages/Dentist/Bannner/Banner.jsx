@@ -5,7 +5,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 //import injectTool from '../../../Images/inject-tool.png';
 //import inject from '../../../Images/injection.png';
 //import staircaseMan from '../../../Images/staircase.png';
-import './Banner.css';
 const Banner = () => {
     return (
         <section className="banner-all text-white">
@@ -13,11 +12,11 @@ const Banner = () => {
                 <Row className="align-items-center">
                     <Col md={6} lg={6} sm={12}>
                         <div className="section-title">
-                            <h1>About Us</h1>
+                            <h1>Dr. Nathan Currie</h1>
                         </div>
                         <div className="breadcrumb-nav">
                             <a href="/" className="text-decoration-none text-white">Home Page</a>
-                            <span href="/" className="text-decoration-none text-white ml-2">About Us</span>
+                            <span href="/" className="text-decoration-none text-white ml-2">Dr. Nathan Currie</span>
                         </div>
                     </Col>
                     <Col md={6} lg={6} sm={12}>
@@ -30,5 +29,6 @@ const Banner = () => {
             </Container>
         </section>
     );
-}
+};
+
 export default Banner;

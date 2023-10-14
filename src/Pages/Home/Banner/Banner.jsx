@@ -1,9 +1,9 @@
 import "@fontsource/josefin-sans";
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import doctorfinding from '../../../Images/doctorfinding.c2532ac3.png';
-import heroTeeth from '../../../Images/hero-theeth.54c2c4e9.png';
-import womanbrush from '../../../Images/woman-brush.c4158ac5.png';
+//import doctorfinding from '../../../Images/doctorfinding.c2532ac3.png';
+//import heroTeeth from '../../../Images/hero-theeth.54c2c4e9.png';
+//import womanbrush from '../../../Images/woman-brush.c4158ac5.png';
 import './Banner.css';
 
 
@@ -27,10 +27,7 @@ const Banner = () => {
                         <Col md={12} sm={12} lg={6} className="mt-sm-5">
                             <div className="hero-slide-right text-center text-lg-start mt-sm-5">
                                 <div className="animate-img">
-                                    <img src={womanbrush} alt="" className="img-fluid aimg1" />
-                                    <img src={doctorfinding} alt="" className="img-fluid aimg2" />
                                 </div>
-                                <img src={heroTeeth} alt="" className="heroTeeth"/>
                             </div>
                         </Col>
                     </Row>
