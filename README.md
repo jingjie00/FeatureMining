@@ -12,19 +12,19 @@
 - [The Problem it Solves](#problem)
 - [Challenges we ran into](#challenges)
 - [Technologies We Used](#tech)
-- [Link](#link)
+- [Hosting & Contract Link](#link)
 - [Video Demo](#video)
 - [Cover Image](cover_img)
 
-## 🧐 Project Name <a name = "project_name"></a>
+## 🧐 Project Name <a id = "project_name"></a>
 
 Our project name is called inShield.
 
-## 💡 Tagline <a name = "tagline"></a>
+## 💡 Tagline <a id = "tagline"></a>
 
 Community-Driven Insurance : Where Community Shapes Insurance
 
-## ⛓️ The Problem it Solves <a name = "problem"></a>
+## ⛓️ The Problem it Solves <a id = "problem"></a>
 
 1. Fraud Detection and Prevention:
 Insurance fraud has always been a pervasive issue within the industry, costing insurers billions of dollars annually. The blockchain's immutability and transparency provide a robust defense against fraudulent claims. Through its decentralized ledger, the application securely records and time-stamps each claim's details, making it nearly impossible for policyholders to tamper with information or submit false claims.
@@ -35,63 +35,36 @@ Insurance fraud has always been a pervasive issue within the industry, costing i
 3. Increased Trust and Transparency:
   By utilizing blockchain technology, this application fosters a level of trust and transparency that has been lacking in the insurance industry. Every step of the claim verification process, from the submission of all the necessary documents, is recorded on the blockchain, creating an immutable record that all stakeholders can trust. This transparency reduces disputes and fosters a sense of fairness among policyholders.
 
-## 🚀 Challenges we ran into <a name = "challenges"></a>
+## 🚀 Challenges we ran into <a id = "challenges"></a>
 
-Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
-in the future.
+In our endeavor to create something truly groundbreaking, we intend to explore the synergies between smart contracts and machine learning algorithms. By leveraging the inherent flexibility of smart contracts and the predictive capabilities of machine learning, we aim to develop an adaptive system that can autonomously respond to dynamic conditions and make intelligent decisions in real-time.
 
-## 🏁 Technologies We Used <a name = "tech"></a>
+This project represents a significant leap forward in the realm of decentralized applications, enabling smart contracts to evolve and adapt based on real-world data and user interactions. By incorporating machine learning support, our solution will not only enhance the efficiency and reliability of smart contracts but also introduce a new paradigm in decentralized applications.
 
-React.js, Ethers.js, JavaScript, Solidity, HTML, CSS, 
+## 🏁 Technologies We Used <a id = "tech"></a>
 
-### Link <a name = "link"></a>
+Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript 
 
-### Video Demo <a name = "video"></a>
+### Hosting & Contract Link <a id = "link"></a>
+- The frontend website: https://feature-mining.web.app/
+- The 4 contracts:
+      [Police Report Storage Contract](/contract/StorageContract.txt)
+      [Trusted Insurance Contract](/contract/TrustedInsuranceContract.txt)
+      [Voting Contract](/contract/VotingContract.txt)
+      [Reputation Contract](/contract/ReputationContract.txt)
 
-### Cover Image <a name = "cover_img"></a>
+### Video Demo <a id = "video"></a>
 
-What things you need to install the software and how to install them.
+### Cover Image <a id = "cover_img"></a>
 
-```
-Give examples
-```
+<img src="./logo-reg.png" alt="inShield"></a>
+<img src="./logo-reg.png" alt="inShield"></a>
+<img src="./logo-reg.png" alt="inShield"></a>
+<img src="./logo-reg.png" alt="inShield"></a>
+<img src="./logo-reg.png" alt="inShield"></a>
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## ⛏️ Built With <a name = "tech_stack"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
-
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+## 🎉 Acknowledgments <a id = "acknowledgments"></a>
+- ETHKL organising committees
+- Mantle, and the teams
+- Taiko, and the teams
