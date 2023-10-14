@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import { Button, Checkbox, Form, Input } from 'antd';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Claim.css';
+import { ethers } from 'ethers';
 
 const Claim = () => {
 
