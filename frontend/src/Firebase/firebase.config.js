@@ -1,10 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyC5ybdNyjFhzw2lw5L9r2laPycG5Mg_cHU",
-    authDomain: "donto-8ab38.firebaseapp.com",
-    projectId: "donto-8ab38",
-    storageBucket: "donto-8ab38.appspot.com",
-    messagingSenderId: "366989959436",
-    appId: "1:366989959436:web:cc036f28966bd274866929"
-  };
-  
+  apiKey: "AIzaSyAXKqSsaOCx-lJS4Wtiz-c3qSdVGXypcjQ",
+  authDomain: "feature-mining.web.app",
+  projectId: "feature-mining",
+  storageBucket: "feature-mining.appspot.com",
+  messagingSenderId: "844727729332",
+  appId: "1:844727729332:web:67ec7b176cfe736a392be1",
+  measurementId: "G-EZ7X69KTBM"
+};
+
 export default firebaseConfig;
