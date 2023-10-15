@@ -68,11 +68,11 @@ Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript
 
 ### Cover Image <a id = "cover_img"></a>
 
-<img src="" alt="inShield"></a>
 <img src="https://github.com/jingjie00/FeatureMining/blob/main/cover_image/inShield-1.png?raw=true" alt="inShield"></a>
-<img src="./logo-reg.png" alt="inShield"></a>
-<img src="./logo-reg.png" alt="inShield"></a>
-<img src="./logo-reg.png" alt="inShield"></a>
+<img src="https://github.com/jingjie00/FeatureMining/blob/main/cover_image/inShield-2.png?raw=true" alt="inShield"></a>
+<img src="https://github.com/jingjie00/FeatureMining/blob/main/cover_image/inShield-3.png?raw=true" alt="inShield"></a>
+<img src="https://github.com/jingjie00/FeatureMining/blob/main/cover_image/inShield-4.png?raw=true" alt="inShield"></a>
+<img src="https://github.com/jingjie00/FeatureMining/blob/main/cover_image/inShield-5.png?raw=true" alt="inShield"></a>
 
 
 ## 🎉 Acknowledgments <a id = "acknowledgments"></a>
