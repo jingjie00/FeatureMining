@@ -49,7 +49,9 @@ Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript
 - The frontend website: 
   [Main](https://feature-mining.web.app),
   [Backup](https://feature-mining.firebaseapp.com),
-  [Mantle](https://bafybeidvthhgcgvastdqm2ryso3pziqkckhlqfjvj3hljkowymaywnz3ta.ipfs.sphn.link/)
+
+  [Mantle](https://inshield@jingjietan.com)
+  [MantleBackup](https://bafybeidvthhgcgvastdqm2ryso3pziqkckhlqfjvj3hljkowymaywnz3ta.ipfs.sphn.link/)
 
 - The 2 IPFS 
   [Storage](https://ipfs.io/ipfs/QmSMaeoKXUxt6HVoHcQRYTsbbAWovUwjETvaSsWpXQqvUn),
