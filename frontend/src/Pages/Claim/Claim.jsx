@@ -183,6 +183,8 @@ const Claim = () => {
          else{
           alert("Your insurance claim has been sent for further review by our community.")
          }
+                // reset the form fill called claimInsuranceForm
+        document.getElementById("claimInsuranceForm").reset();
       }
     } catch (error) {
      // console.error('Claim failed:', error);
@@ -195,6 +197,8 @@ const Claim = () => {
      else{
       alert("Your insurance claim has been sent for further review by our community.")
      }
+            // reset the form fill called claimInsuranceForm
+            document.getElementById("claimInsuranceForm").reset();
     }
   };
 
