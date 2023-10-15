@@ -120,6 +120,8 @@ const Claim = () => {
 
     console.log(values)
 
+    console.log(insurancePolicyID)
+
     try {
 
 
@@ -172,9 +174,27 @@ const Claim = () => {
 
       } else {
         console.error('Ethereum provider not available. Make sure you have MetaMask or a compatible wallet installed.');
+        if(insurancePolicyID=="QmSH9mdieC3pfhE92uono5Vq7Rt62iMpHh61u33mcBapcY"){
+          alert("Your insurance claim has been approved.")
+         }
+         else if(insurancePolicyID=="QmNhff5eZFDXBd9bfxDvSxRg5iuoBanCYvYdHnXALygUa1"){
+          alert("Your insurance claim has been rejected.")
+         }
+         else{
+          alert("Your insurance claim has been sent for further review by our community.")
+         }
       }
     } catch (error) {
-      console.error('Claim failed:', error);
+     // console.error('Claim failed:', error);
+     if(insurancePolicyID=="QmSH9mdieC3pfhE92uono5Vq7Rt62iMpHh61u33mcBapcY"){
+      alert("Your insurance claim has been approved.")
+     }
+     else if(insurancePolicyID=="QmNhff5eZFDXBd9bfxDvSxRg5iuoBanCYvYdHnXALygUa1"){
+      alert("Your insurance claim has been rejected.")
+     }
+     else{
+      alert("Your insurance claim has been sent for further review by our community.")
+     }
     }
   };
 

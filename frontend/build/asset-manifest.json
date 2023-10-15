@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e354081f.css",
-    "main.js": "/static/js/main.0f9176f4.js",
+    "main.js": "/static/js/main.de1b2730.js",
     "static/media/Logo-reg.png": "/static/media/Logo-reg.d2e75b839f4455e6e790.png",
     "static/media/logo.png": "/static/media/logo.db2a9e9295ce86fa5cdc.png",
     "static/media/insurance_welcome.png": "/static/media/insurance_welcome.96d7a145e2d01eddf405.png",
@@ -13,10 +13,10 @@
     "static/media/josefin-sans-vietnamese-400-normal.woff2": "/static/media/josefin-sans-vietnamese-400-normal.4a3e569a0e9e99674d59.woff2",
     "index.html": "/index.html",
     "main.e354081f.css.map": "/static/css/main.e354081f.css.map",
-    "main.0f9176f4.js.map": "/static/js/main.0f9176f4.js.map"
+    "main.de1b2730.js.map": "/static/js/main.de1b2730.js.map"
   },
   "entrypoints": [
     "static/css/main.e354081f.css",
-    "static/js/main.0f9176f4.js"
+    "static/js/main.de1b2730.js"
   ]
 }
