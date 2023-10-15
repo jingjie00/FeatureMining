@@ -47,15 +47,18 @@ Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript
 
 ### Hosting & Contract Link <a id = "link"></a>
 - The frontend website: 
-  [Main](https://feature-mining.web.app)
-  [Backup](https://feature-mining.firebaseapp.com)
+  [Main](https://feature-mining.web.app),
+  [Backup](https://feature-mining.firebaseapp.com),
+  [Mantle](https://bafybeidvthhgcgvastdqm2ryso3pziqkckhlqfjvj3hljkowymaywnz3ta.ipfs.sphn.link/)
+
 - The 2 IPFS 
-  [Storage]  https://ipfs.io/ipfs/QmSMaeoKXUxt6HVoHcQRYTsbbAWovUwjETvaSsWpXQqvUn
-  [Claiming] https://ipfs.io/ipfs/QmdatEiKWSaqMPmKn9zgero1Pqq7cr1gGb6UVYWRaivd3Q
+  [Storage](https://ipfs.io/ipfs/QmSMaeoKXUxt6HVoHcQRYTsbbAWovUwjETvaSsWpXQqvUn),
+  [Claiming](https://ipfs.io/ipfs/QmdatEiKWSaqMPmKn9zgero1Pqq7cr1gGb6UVYWRaivd3Q)
+
 - The 4 contracts:
-      [Police Report Storage Contract](/contract/StorageContract.txt)
-      [Trusted Insurance Contract](/contract/TrustedInsuranceContract.txt)
-      [Voting Contract](/contract/VotingContract.txt)
+      [Police Report Storage Contract](/contract/StorageContract.txt),
+      [Trusted Insurance Contract](/contract/TrustedInsuranceContract.txt),
+      [Voting Contract](/contract/VotingContract.txt),
       [Reputation Contract](/contract/ReputationContract.txt)
 
 
