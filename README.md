@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="./logo-reg.png" alt="inShield"></a>
+ <img src="https://github.com/jingjie00/FeatureMining/blob/main/Log-reg-1.png?raw=true" alt="inShield"></a>
 </p>
 <h3 align="center">inShield</h3>
 
