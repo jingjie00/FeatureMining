@@ -43,7 +43,7 @@ This project represents a significant leap forward in the realm of decentralized
 
 ## 🏁 Technologies We Used <a id = "tech"></a>
 
-Smart Contract, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript 
+Smart Contract, Mantle, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, JavaScript 
 
 ### Hosting & Contract Link <a id = "link"></a>
 - The frontend website: 
