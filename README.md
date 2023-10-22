@@ -65,8 +65,8 @@ Smart Contract, Mantle, Ethers.js, Solidity, React.js, Firebase, HTML, CSS, Java
 
 
 ### Video Demo <a id = "video"></a>
-[Picth Video](https://www.youtube.com/watch?v=YDkv6ZL3EJ8)
-[Picth Deck](/inShield%20-%20FeatureMining.pdf)
+- [Picth Video](https://www.youtube.com/watch?v=YDkv6ZL3EJ8)
+- [Picth Deck](/inShield%20-%20FeatureMining.pdf)
 
 ### Cover Image <a id = "cover_img"></a>
 
